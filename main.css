@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #cbbead;
+}
+
+p {display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.header button {position: absolute;
+  right: 18%;
+  margin-top: -30px;
+} 
+.check-list { margin-top: 40px;
+  width: 40%;
+}
+.textInsert { border: 0cap;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  width: 90%;
+}
+.divInsert {padding: 10px;
+  display: flex;
+}
+button {width: 10%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.bx-plus {font-size: 30px;
+  margin-left: 10px;
+  background-color: #371f1f;
+  border-radius: 50%;
+  padding: 5px;
+  color: #cbbead;
+}
+.divLi {margin-top: 20px;
+  padding: 10px;
+  background: #beae97;
+  border-radius: 10px;
+  box-shadow: 6px 5px 10px 0px #371f1f;
+  display: flex;
+  align-items: center;
+}
+.divLi span {width: 80%;
+  color: #371f1f;
+}
+.divLi input {width: 10%;
+  outline: none;
+  accent-color: currentcolor;
+}
+.divLi i {font-size: 22px;
+  color: rgba(214, 25, 25, 0.589);
+}
+li {list-style-type: none;
+}
+.line-through {text-decoration: line-through;
+}
+@media (max-width: 775px) {
+  input {
+    width: 70%;
+  }
+  .divInsert button {
+    width: 30%;
+  }
+  p {
+    font-size: x-large;
+  }
+}
